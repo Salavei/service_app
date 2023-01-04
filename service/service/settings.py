@@ -4,10 +4,7 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-SECRET_KEY = 'django-insecure-2a!zdy1yhqiyrirqbzjtikj=zdq36$qq9tll8y*#8d=z=+ujz%'
 
-
-DEBUG = True
 
 ALLOWED_HOSTS = []
 
