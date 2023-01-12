@@ -14,7 +14,6 @@ class SubscriptionSerializer(serializers.ModelSerializer):
     client_name = serializers.CharField(source='client.company_name')
     email = serializers.CharField(source='client.user.email')
     price = serializers.SerializerMethodField()
-
     # SerializerMethodField - будет искать функцию начинающуюся на get
 
     def get_price(self, instance):
